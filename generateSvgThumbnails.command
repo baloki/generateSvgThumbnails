@@ -5,6 +5,7 @@ echo 'Complete'
 echo 'Removing all existing Output Files...'
 rm ./output/*
 mkdir ./output/thumbnails
+rm ./output/thumbnails/*
 echo 'Complete'
 FILES=./input/*.jpg
 echo "Starting Generation for $FILES"
